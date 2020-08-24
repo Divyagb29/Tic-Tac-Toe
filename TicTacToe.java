@@ -43,10 +43,13 @@ public class TicTacToe
 		}
 	}
     public static void main(String[] args)
-	{
+	{   
+	    System.out.println("****************************");
 		System.out.println("WELCOME TO TIC-TAC-TOE GAME");
+		System.out.println("****************************");
 		resettingBoard();
+		System.out.println("your board is ready now where you want to place mark");
 		//tossTOCheckWhoPlaysFirst();
-		chooseLetter_X_or_O();
+		//chooseLetter_X_or_O();
 	}
 }
