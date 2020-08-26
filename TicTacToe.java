@@ -218,56 +218,64 @@ public class TicTacToe
 		}// else ending(alternate%2)
 	
 	}
-	public static int playerWin(String arr[][])
+	public static int computerWin(String arr[][])//for checking computer wins
 	{
 		int win = 0;
-		if(arr[0][0] == "X" && arr[0][1] == "X" && arr[0][2] == "X")//FOR 1=2=3=X
+		if(arr[0][0] == "O" && arr[0][1] == "O" && arr[0][2] == "O")//FOR 1=2=3=X
 		{
-			System.out.println("YOU HAVE WON THE GAME");
+			System.out.println("COMPUTER HAS WON THE GAME");
+			System.out.println("BETTER LUCK NEXT TIME");
 			win = 1;
 			return win;
 
 		}
-		if(arr[0][0] == "X" && arr [1][0] == "X" && arr[2][0] == "X")//FOR 1=4=7=X
+		if(arr[0][0] == "O" && arr [1][0] == "O" && arr[2][0] == "O")//FOR 1=4=7=X
 		{
-			System.out.println("YOU HAVE WON THE GAME");
+			System.out.println("COMPUTER HAS WON THE GAME");
+			System.out.println("BETTER LUCK NEXT TIME");
 			win = 1;
 			return win;
 		}
 
-		if(arr[0][2] == "X" && arr [1][2] == "X"  && arr[2][2] == "X")//FOR 3=6=9=X
+		if(arr[0][2] == "O" && arr [1][2] == "O"  && arr[2][2] == "O")//FOR 3=6=9=X
 		{
-			System.out.println("YOU HAVE WON THE GAME");
+			System.out.println("COMPUTER HAS WON THE GAME");
+			System.out.println("BETTER LUCK NEXT TIME");
 			win = 1;
 			return win;
 		}
-		if(arr[2][0] == "X" && arr [2][1] == "X" && arr[2][2] == "X")//FOR 7=8=9=X
+		if(arr[2][0] == "O" && arr [2][1] == "O" && arr[2][2] == "O")//FOR 7=8=9=X
 		{
-			System.out.println("YOU HAVE WON THE GAME");
+			System.out.println("COMPUTER HAS WON THE GAME");
+			System.out.println("BETTER LUCK NEXT TIME");
 			win = 1;
 			return win;
 		}
-		if(arr[0][0] == "X" && arr [1][1] == "X" && arr[2][2] == "X")//FOR 1=5=9=X
+		if(arr[0][0] == "O" && arr [1][1] == "O" && arr[2][2] == "O")//FOR 1=5=9=X
 		{
-			System.out.println("YOU HAVE WON THE GAME");
+			System.out.println("COMPUTER HAS WON THE GAME");
+			System.out.println("BETTER LUCK NEXT TIME");
 			win = 1;
 			return win;
 		}
-		if(arr[2][0] == "X" && arr [1][1] == "X" && arr[0][2] == "X")//FOR 7=5=3=X
+		if(arr[2][0] == "O" && arr [1][1] == "O" && arr[0][2] == "O")//FOR 7=5=3=X
 		{
-			System.out.println("YOU HAVE WON THE GAME");
+			System.out.println("COMPUTER HAS WON THE GAME");
+			System.out.println("BETTER LUCK NEXT TIME");
 			win = 1;
 			return win;
 		}
-		if(arr[0][1] == "X" && arr [1][1] == "X" && arr[2][1] == "X")//FOR 2=5=8=X
+		if(arr[0][1] == "O" && arr [1][1] == "O" && arr[2][1] == "O")//FOR 2=5=8=X
 		{
-			System.out.println("YOU HAVE WON THE GAME");
+			System.out.println("COMPUTER HAS WON THE GAME");
+			System.out.println("BETTER LUCK NEXT TIME");
 			win = 1;
 			return win;
 		}
-		if(arr[1][0] == "X" && arr [1][1] == "X" && arr[1][2] == "X")//FOR 4=5=6=X
+		if(arr[1][0] == "O" && arr [1][1] == "O" && arr[1][2] == "O")//FOR 4=5=6=X
 		{
-			System.out.println("YOU HAVE WON THE GAME");
+			System.out.println("COMPUTER HAS WON THE GAME");
+			System.out.println("BETTER LUCK NEXT TIME");
 			win = 1;
 			return win;
 		}
